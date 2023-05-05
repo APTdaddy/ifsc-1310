@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Positioning Lab</title>
+  <style type="text/css">
+    html {
+      box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+    body {
+      background-color: #ECECEC;
+      font-weight: bold;
+      font-family: Tahoma, Geneva, sans-serif;
+      color: #FFF;
+      text-align: center;
+      margin: 0;
+    }
+    .box {
+      font-size: 24px;
+      color: white;
+      text-align: center;
+      line-height: 150px;
+      height: 200px;
+      width: 200px;
+      position: absolute;
+    }
+    #navy {
+      background-color: #001f3f;
+      top: 0;
+      left: 0;
+    }
+    #teal {
+      background-color: #39CCCC;
+      top: 0;
+      right: 0;
+    }
+    #blue {
+      background-color: #0074D9;
+      bottom: 0;
+      left: 0;
+    }
+    #aqua {
+      background-color: #7FDBFF;
+      bottom: 0;
+      right: 0;
+    }
+    #footer {
+      background-color: #666;
+      height: 200px;
+      width: 200px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="navy" class="box">
+    <p>Navy</p>
+  </div>
+  <div id="teal" class="box">
+    <p>Teal</p>
+  </div>
+  <div id="blue" class="box">
+    <p>Blue</p>
+  </div>
+  <div id="aqua" class="box">
+    <p>Aqua</p>
+  </div>
+  <div id="footer" class="box">
+    <p>Footer</p>
+  </div>
+</body>
+
+</html>
